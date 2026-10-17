@@ -1,0 +1,11 @@
+{
+  "nome": "cliente, ICP de beneficios corporativos (Regras_Score_Exemplo da base)",
+  "pesos": {
+    "porte": 20, "rh": 14, "multi_regiao": 10, "crescimento": 10, "employer_branding": 10,
+    "dor_retencao": 8, "renovacao": 8, "sinal_recente": 10, "decisor": 5, "segmento": 5
+  },
+  "porte": [200, 5000],
+  "porte_minimo": 80,
+  "cargos_decisor": ["recursos humanos", "rh", "pessoas", "people", "gente", "talentos",
+                     "beneficios", "dho", "chro"]
+}

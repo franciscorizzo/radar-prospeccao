@@ -1,0 +1,105 @@
+# Elasticsearch local para a base aberta do CNPJ.
+#
+# So escuta em 127.0.0.1: sem seguranca ligada, expor a porta para a rede seria
+# entregar o indice a quem estiver na mesma rede. Dados num volume nomeado, fora
+# do repositorio.
+#
+#   docker compose -f infra/docker-compose.yml up -d
+name: ita-cnpj
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.15.3
+    container_name: ita-cnpj-es
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms4g -Xmx4g
+      - cluster.name=ita-cnpj
+    ports:
+      - "127.0.0.1:9200:9200"
+    volumes:
+      - ita-cnpj-dados:/usr/share/elasticsearch/data
+    ulimits:
+      memlock: { soft: -1, hard: -1 }
+    restart: unless-stopped
+
+  # A carga completa leva mais de uma hora, e o ambiente do Claude Code corta
+  # comando em segundo plano em 10 minutos. Rodando aqui, ela vive sozinha.
+  # Fica num perfil para nao subir junto com o Elasticsearch:
+  #
+  #   docker compose -f infra/docker-compose.yml --profile carga up -d --no-deps importador
+  #   docker logs -f ita-cnpj-importador
+  #
+  # So biblioteca padrao do Python: nenhuma dependencia para instalar. Sem
+  # reinicio automatico: se cair, sobe de novo e a retomada continua de onde
+  # parou.
+  importador:
+    image: python:3.14-slim
+    container_name: ita-cnpj-importador
+    profiles: ["carga"]
+    working_dir: /trabalho
+    environment:
+      - ITA_ES_URL=http://elasticsearch:9200
+      - PYTHONIOENCODING=utf-8
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ..:/trabalho
+    # Numa linha so. Quebrada em duas com indentacao diferente, o YAML preserva
+    # a quebra, o shell roda a carga e tropeca no "|" da segunda linha: foi o
+    # codigo de saida 2 da primeira carga completa, com o log fora do arquivo.
+    command: ["sh", "-c", "python -m receita_base.importar 2026-09 2>&1 | tee -a /trabalho/dados-receita/2026-09/carga.log"]
+    restart: "no"
+
+  # Modelo de linguagem local, na RTX 3060, para o extrator rodar sem custo por
+  # chamada. O LM Studio desta maquina nao oferece o motor de modelos de texto,
+  # entao o mesmo arquivo GGUF que ele baixou e servido pela imagem oficial do
+  # llama.cpp com CUDA, numa API no formato da OpenAI. So em 127.0.0.1.
+  #
+  #   docker compose -f infra/docker-compose.yml --profile llm up -d llm
+  llm:
+    image: ghcr.io/ggml-org/llama.cpp:server-cuda
+    container_name: ita-llm
+    profiles: ["llm"]
+    # Qual modelo: ITA_LLM_ARQUIVO, relativo a pasta de modelos do LM Studio.
+    # --jinja usa o template do proprio modelo, que e por onde se desliga o modo
+    # de raciocinio dos Qwen3 em diante. Cache de contexto em 8 bits, para caber
+    # 32 mil tokens junto com o modelo nos 12 GB da placa.
+    command: ["-m", "/modelos/${ITA_LLM_ARQUIVO:-Qwen3.5-9B-GGUF/Qwen3.5-9B-Q4_K_M.gguf}",
+              "-c", "32768", "-ngl", "99", "-fa", "on", "-ctk", "q8_0", "-ctv", "q8_0",
+              "--jinja", "--host", "0.0.0.0", "--port", "8080"]
+    ports:
+      - "127.0.0.1:8081:8080"
+    volumes:
+      - C:/Users/franc/.lmstudio/models/lmstudio-community:/modelos:ro
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    restart: "no"
+
+  # Extracao em lote com o modelo local, fora do limite de 10 minutos dos
+  # comandos do ambiente de desenvolvimento. So biblioteca padrao do Python.
+  #
+  #   docker compose -f infra/docker-compose.yml --profile extracao up -d --no-deps extrator
+  extrator:
+    image: python:3.14-slim
+    container_name: ita-extrator
+    profiles: ["extracao"]
+    working_dir: /trabalho
+    environment:
+      - ITA_LLM_LOCAL=http://llm:8080
+      - PYTHONIOENCODING=utf-8
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ..:/trabalho
+    command: ["python", "-m", "lote_extracao",
+              "/trabalho/dados-exemplo/lista.jsonl",
+              "/trabalho/dados-exemplo/extracao.jsonl"]
+    restart: "no"
+
+volumes:
+  ita-cnpj-dados:

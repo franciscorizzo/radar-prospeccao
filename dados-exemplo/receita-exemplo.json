@@ -1,0 +1,350 @@
+{
+ "99000001": {
+  "estabelecimentos": 1,
+  "ufs": [
+   "SC"
+  ],
+  "uf_matriz": "SC",
+  "cnae_principal": "2610800",
+  "abertos_24m": 6,
+  "filial_mais_recente": {
+   "data_inicio_atividade": "2025-03-24",
+   "uf": "SP",
+   "municipio": "SÃO PAULO"
+  },
+  "razao_social": "AURORA COMPONENTES EXEMPLO LTDA",
+  "porte_receita": "05"
+ },
+ "99000002": {
+  "estabelecimentos": 28,
+  "ufs": [
+   "CE",
+   "GO",
+   "PR",
+   "RS"
+  ],
+  "uf_matriz": "CE",
+  "cnae_principal": "6201501",
+  "abertos_24m": 3,
+  "filial_mais_recente": {
+   "data_inicio_atividade": "2025-07-02",
+   "uf": "MG",
+   "municipio": "BELO HORIZONTE"
+  },
+  "razao_social": "BOREAL SISTEMAS EXEMPLO LTDA",
+  "porte_receita": "05"
+ },
+ "99000003": {
+  "estabelecimentos": 31,
+  "ufs": [
+   "CE",
+   "PE",
+   "SC"
+  ],
+  "uf_matriz": "PE",
+  "cnae_principal": "4930202",
+  "abertos_24m": 0,
+  "filial_mais_recente": null,
+  "razao_social": "COBALTO TRANSPORTES EXEMPLO LTDA",
+  "porte_receita": "05"
+ },
+ "99000004": {
+  "estabelecimentos": 3,
+  "ufs": [
+   "PR"
+  ],
+  "uf_matriz": "PR",
+  "cnae_principal": "8610101",
+  "abertos_24m": 0,
+  "filial_mais_recente": null,
+  "razao_social": "DUNA SAÚDE EXEMPLO LTDA",
+  "porte_receita": "05"
+ },
+ "99000005": {
+  "estabelecimentos": 17,
+  "ufs": [
+   "BA",
+   "CE",
+   "GO",
+   "RJ"
+  ],
+  "uf_matriz": "BA",
+  "cnae_principal": "4753900",
+  "abertos_24m": 0,
+  "filial_mais_recente": null,
+  "razao_social": "ESTUARIO MAGAZINE EXEMPLO LTDA",
+  "porte_receita": "05"
+ },
+ "99000006": {
+  "estabelecimentos": 12,
+  "ufs": [
+   "PR"
+  ],
+  "uf_matriz": "PR",
+  "cnae_principal": "6422100",
+  "abertos_24m": 3,
+  "filial_mais_recente": {
+   "data_inicio_atividade": "2026-07-02",
+   "uf": "RS",
+   "municipio": "PORTO ALEGRE"
+  },
+  "razao_social": "GRANITO CRÉDITO EXEMPLO LTDA",
+  "porte_receita": "05"
+ },
+ "99000007": {
+  "estabelecimentos": 5,
+  "ufs": [
+   "GO"
+  ],
+  "uf_matriz": "GO",
+  "cnae_principal": "3511501",
+  "abertos_24m": 0,
+  "filial_mais_recente": null,
+  "razao_social": "HORIZONTE ENERGIA EXEMPLO LTDA",
+  "porte_receita": "05"
+ },
+ "99000008": {
+  "estabelecimentos": 3,
+  "ufs": [
+   "BA"
+  ],
+  "uf_matriz": "BA",
+  "cnae_principal": "8532500",
+  "abertos_24m": 0,
+  "filial_mais_recente": null,
+  "razao_social": "IRIS EDUCAÇÃO EXEMPLO LTDA",
+  "porte_receita": "05"
+ },
+ "99000009": {
+  "estabelecimentos": 2,
+  "ufs": [
+   "GO"
+  ],
+  "uf_matriz": "GO",
+  "cnae_principal": "2610800",
+  "abertos_24m": 0,
+  "filial_mais_recente": null,
+  "razao_social": "JACARANDA COMPONENTES EXEMPLO LTDA",
+  "porte_receita": "05"
+ },
+ "99000010": {
+  "estabelecimentos": 26,
+  "ufs": [
+   "BA",
+   "PE",
+   "RJ",
+   "SC"
+  ],
+  "uf_matriz": "SC",
+  "cnae_principal": "6201501",
+  "abertos_24m": 0,
+  "filial_mais_recente": null,
+  "razao_social": "KEPLER SISTEMAS EXEMPLO LTDA",
+  "porte_receita": "05"
+ },
+ "99000011": {
+  "estabelecimentos": 10,
+  "ufs": [
+   "RS"
+  ],
+  "uf_matriz": "RS",
+  "cnae_principal": "4930202",
+  "abertos_24m": 0,
+  "filial_mais_recente": null,
+  "razao_social": "LOTUS TRANSPORTES EXEMPLO LTDA",
+  "porte_receita": "05"
+ },
+ "99000012": {
+  "estabelecimentos": 5,
+  "ufs": [
+   "CE"
+  ],
+  "uf_matriz": "CE",
+  "cnae_principal": "8610101",
+  "abertos_24m": 4,
+  "filial_mais_recente": {
+   "data_inicio_atividade": "2026-09-12",
+   "uf": "BA",
+   "municipio": "SALVADOR"
+  },
+  "razao_social": "MONCAO SAÚDE EXEMPLO LTDA",
+  "porte_receita": "05"
+ },
+ "99000013": {
+  "estabelecimentos": 12,
+  "ufs": [
+   "GO",
+   "MG",
+   "RS",
+   "SP"
+  ],
+  "uf_matriz": "GO",
+  "cnae_principal": "4753900",
+  "abertos_24m": 2,
+  "filial_mais_recente": {
+   "data_inicio_atividade": "2025-08-30",
+   "uf": "MG",
+   "municipio": "BELO HORIZONTE"
+  },
+  "razao_social": "NIMBUS MAGAZINE EXEMPLO LTDA",
+  "porte_receita": "05"
+ },
+ "99000014": {
+  "estabelecimentos": 3,
+  "ufs": [
+   "PR"
+  ],
+  "uf_matriz": "PR",
+  "cnae_principal": "6422100",
+  "abertos_24m": 0,
+  "filial_mais_recente": null,
+  "razao_social": "OASIS CRÉDITO EXEMPLO LTDA",
+  "porte_receita": "05"
+ },
+ "99000015": {
+  "estabelecimentos": 1,
+  "ufs": [
+   "PE"
+  ],
+  "uf_matriz": "PE",
+  "cnae_principal": "3511501",
+  "abertos_24m": 1,
+  "filial_mais_recente": {
+   "data_inicio_atividade": "2026-03-30",
+   "uf": "MG",
+   "municipio": "BELO HORIZONTE"
+  },
+  "razao_social": "PAMPA ENERGIA EXEMPLO LTDA",
+  "porte_receita": "05"
+ },
+ "99000016": {
+  "estabelecimentos": 1,
+  "ufs": [
+   "GO"
+  ],
+  "uf_matriz": "GO",
+  "cnae_principal": "8532500",
+  "abertos_24m": 0,
+  "filial_mais_recente": null,
+  "razao_social": "QUARTZO EDUCAÇÃO EXEMPLO LTDA",
+  "porte_receita": "05"
+ },
+ "99000017": {
+  "estabelecimentos": 3,
+  "ufs": [
+   "CE"
+  ],
+  "uf_matriz": "CE",
+  "cnae_principal": "2610800",
+  "abertos_24m": 1,
+  "filial_mais_recente": {
+   "data_inicio_atividade": "2026-05-22",
+   "uf": "RS",
+   "municipio": "PORTO ALEGRE"
+  },
+  "razao_social": "RESTINGA COMPONENTES EXEMPLO LTDA",
+  "porte_receita": "05"
+ },
+ "99000018": {
+  "estabelecimentos": 1,
+  "ufs": [
+   "SP"
+  ],
+  "uf_matriz": "SP",
+  "cnae_principal": "6201501",
+  "abertos_24m": 0,
+  "filial_mais_recente": null,
+  "razao_social": "SAFIRA SISTEMAS EXEMPLO LTDA",
+  "porte_receita": "05"
+ },
+ "99000019": {
+  "estabelecimentos": 4,
+  "ufs": [
+   "SC"
+  ],
+  "uf_matriz": "SC",
+  "cnae_principal": "4930202",
+  "abertos_24m": 1,
+  "filial_mais_recente": {
+   "data_inicio_atividade": "2026-08-12",
+   "uf": "SC",
+   "municipio": "FLORIANÓPOLIS"
+  },
+  "razao_social": "TAMARINDO TRANSPORTES EXEMPLO LTDA",
+  "porte_receita": "05"
+ },
+ "99000020": {
+  "estabelecimentos": 17,
+  "ufs": [
+   "DF",
+   "GO",
+   "PA",
+   "PR",
+   "SP"
+  ],
+  "uf_matriz": "PR",
+  "cnae_principal": "8610101",
+  "abertos_24m": 0,
+  "filial_mais_recente": null,
+  "razao_social": "UBIRATAN SAÚDE EXEMPLO LTDA",
+  "porte_receita": "05"
+ },
+ "99000021": {
+  "estabelecimentos": 3,
+  "ufs": [
+   "SC"
+  ],
+  "uf_matriz": "SC",
+  "cnae_principal": "4753900",
+  "abertos_24m": 0,
+  "filial_mais_recente": null,
+  "razao_social": "VEREDA MAGAZINE EXEMPLO LTDA",
+  "porte_receita": "05"
+ },
+ "99000022": {
+  "estabelecimentos": 1,
+  "ufs": [
+   "PE"
+  ],
+  "uf_matriz": "PE",
+  "cnae_principal": "6422100",
+  "abertos_24m": 0,
+  "filial_mais_recente": null,
+  "razao_social": "XISTO CRÉDITO EXEMPLO LTDA",
+  "porte_receita": "05"
+ },
+ "99000023": {
+  "estabelecimentos": 1,
+  "ufs": [
+   "SC"
+  ],
+  "uf_matriz": "SC",
+  "cnae_principal": "3511501",
+  "abertos_24m": 2,
+  "filial_mais_recente": {
+   "data_inicio_atividade": "2026-07-31",
+   "uf": "GO",
+   "municipio": "GOIÂNIA"
+  },
+  "razao_social": "ZENITE ENERGIA EXEMPLO LTDA",
+  "porte_receita": "05"
+ },
+ "99000024": {
+  "estabelecimentos": 15,
+  "ufs": [
+   "CE",
+   "DF",
+   "MG"
+  ],
+  "uf_matriz": "CE",
+  "cnae_principal": "8532500",
+  "abertos_24m": 1,
+  "filial_mais_recente": {
+   "data_inicio_atividade": "2026-02-20",
+   "uf": "MG",
+   "municipio": "BELO HORIZONTE"
+  },
+  "razao_social": "ALVORADA EDUCAÇÃO EXEMPLO LTDA",
+  "porte_receita": "05"
+ }
+}

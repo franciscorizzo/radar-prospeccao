@@ -1,0 +1,10 @@
+__pycache__/
+.venv/
+.pytest_cache/
+dados-receita/
+# saidas geradas a partir dos dados de exemplo
+dados-exemplo/dossie-*.json
+dados-exemplo/ranking-*.html
+dados-exemplo/radar-*.html
+dados-exemplo/analisadas.jsonl
+dados-exemplo/revisoes.jsonl

@@ -1,0 +1,245 @@
+{
+  "uf": "SP",
+  "cep": "14400490",
+  "cnpj": "47960950000121",
+  "pais": null,
+  "email": null,
+  "porte": "DEMAIS",
+  "bairro": "CENTRO",
+  "numero": "1465",
+  "ddd_fax": "1637241406",
+  "municipio": "FRANCA",
+  "logradouro": "VOLUNTARIOS DA FRANCA",
+  "cnae_fiscal": 4713004,
+  "codigo_pais": null,
+  "complemento": "",
+  "codigo_porte": 5,
+  "razao_social": "MAGAZINE LUIZA S/A",
+  "nome_fantasia": "MAGAZINE LUIZA",
+  "capital_social": 14202162000,
+  "ddd_telefone_1": "1637112002",
+  "ddd_telefone_2": "",
+  "opcao_pelo_mei": null,
+  "codigo_municipio": 6425,
+  "cnaes_secundarios": [
+    {
+      "codigo": 3329501,
+      "descricao": "Serviços de montagem de móveis de qualquer material"
+    },
+    {
+      "codigo": 4623109,
+      "descricao": "Comércio atacadista de alimentos para animais"
+    },
+    {
+      "codigo": 4635401,
+      "descricao": "Comércio atacadista de água mineral"
+    },
+    {
+      "codigo": 4635402,
+      "descricao": "Comércio atacadista de cerveja, chope e refrigerante"
+    },
+    {
+      "codigo": 4635499,
+      "descricao": "Comércio atacadista de bebidas não especificadas anteriormente"
+    },
+    {
+      "codigo": 4646001,
+      "descricao": "Comércio atacadista de cosméticos e produtos de perfumaria"
+    },
+    {
+      "codigo": 4646002,
+      "descricao": "Comércio atacadista de produtos de higiene pessoal"
+    },
+    {
+      "codigo": 4649408,
+      "descricao": "Comércio atacadista de produtos de higiene, limpeza e conservação domiciliar"
+    },
+    {
+      "codigo": 4691500,
+      "descricao": "Comércio atacadista de mercadorias em geral, com predominância de produtos alimentícios"
+    },
+    {
+      "codigo": 4693100,
+      "descricao": "Comércio atacadista de mercadorias em geral, sem predominância de alimentos ou de insumos agropecuários"
+    },
+    {
+      "codigo": 4711302,
+      "descricao": "Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - supermercados"
+    },
+    {
+      "codigo": 4723700,
+      "descricao": "Comércio varejista de bebidas"
+    },
+    {
+      "codigo": 4729699,
+      "descricao": "Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente"
+    },
+    {
+      "codigo": 4753900,
+      "descricao": "Comércio varejista especializado de eletrodomésticos e equipamentos de áudio e vídeo"
+    },
+    {
+      "codigo": 4771701,
+      "descricao": "Comércio varejista de produtos farmacêuticos, sem manipulação de fórmulas"
+    },
+    {
+      "codigo": 4771704,
+      "descricao": "Comércio varejista de medicamentos veterinários"
+    },
+    {
+      "codigo": 4772500,
+      "descricao": "Comércio varejista de cosméticos, produtos de perfumaria e de higiene pessoal"
+    },
+    {
+      "codigo": 4774100,
+      "descricao": "Comércio varejista de artigos de óptica"
+    },
+    {
+      "codigo": 4789099,
+      "descricao": "Comércio varejista de outros produtos não especificados anteriormente"
+    },
+    {
+      "codigo": 5211799,
+      "descricao": "Depósitos de mercadorias para terceiros, exceto armazéns gerais e guarda-móveis"
+    },
+    {
+      "codigo": 6202300,
+      "descricao": "Desenvolvimento e licenciamento de programas de computador customizáveis"
+    },
+    {
+      "codigo": 6203100,
+      "descricao": "Desenvolvimento e licenciamento de programas de computador não-customizáveis"
+    },
+    {
+      "codigo": 6311900,
+      "descricao": "Tratamento de dados, provedores de serviços de aplicação e serviços de hospedagem na internet"
+    },
+    {
+      "codigo": 6319400,
+      "descricao": "Portais, provedores de conteúdo e outros serviços de informação na internet"
+    },
+    {
+      "codigo": 6619302,
+      "descricao": "Correspondentes de instituições financeiras"
+    },
+    {
+      "codigo": 7311400,
+      "descricao": "Agências de publicidade"
+    },
+    {
+      "codigo": 7312200,
+      "descricao": "Agenciamento de espaços para publicidade, exceto em veículos de comunicação"
+    },
+    {
+      "codigo": 7319002,
+      "descricao": "Promoção de vendas"
+    },
+    {
+      "codigo": 7319004,
+      "descricao": "Consultoria em publicidade"
+    },
+    {
+      "codigo": 7319099,
+      "descricao": "Outras atividades de publicidade não especificadas anteriormente"
+    },
+    {
+      "codigo": 7490104,
+      "descricao": "Atividades de intermediação e agenciamento de serviços e negócios em geral, exceto imobiliários"
+    },
+    {
+      "codigo": 7729202,
+      "descricao": "Aluguel de móveis, utensílios e aparelhos de uso doméstico e pessoal; instrumentos musicais"
+    },
+    {
+      "codigo": 7911200,
+      "descricao": "Agências de viagens"
+    },
+    {
+      "codigo": 7912100,
+      "descricao": "Operadores turísticos"
+    },
+    {
+      "codigo": 7990200,
+      "descricao": "Serviços de reservas e outros serviços de turismo não especificados anteriormente"
+    }
+  ],
+  "natureza_juridica": "Sociedade Anônima Aberta",
+  "regime_tributario": [
+    {
+      "ano": 2016,
+      "cnpj_da_scp": null,
+      "forma_de_tributacao": "LUCRO REAL",
+      "quantidade_de_escrituracoes": 1
+    },
+    {
+      "ano": 2017,
+      "cnpj_da_scp": null,
+      "forma_de_tributacao": "LUCRO REAL",
+      "quantidade_de_escrituracoes": 1
+    },
+    {
+      "ano": 2018,
+      "cnpj_da_scp": null,
+      "forma_de_tributacao": "LUCRO REAL",
+      "quantidade_de_escrituracoes": 1
+    },
+    {
+      "ano": 2019,
+      "cnpj_da_scp": null,
+      "forma_de_tributacao": "LUCRO REAL",
+      "quantidade_de_escrituracoes": 1
+    },
+    {
+      "ano": 2020,
+      "cnpj_da_scp": null,
+      "forma_de_tributacao": "LUCRO REAL",
+      "quantidade_de_escrituracoes": 1
+    },
+    {
+      "ano": 2021,
+      "cnpj_da_scp": null,
+      "forma_de_tributacao": "LUCRO REAL",
+      "quantidade_de_escrituracoes": 1
+    },
+    {
+      "ano": 2022,
+      "cnpj_da_scp": null,
+      "forma_de_tributacao": "LUCRO REAL",
+      "quantidade_de_escrituracoes": 1
+    },
+    {
+      "ano": 2023,
+      "cnpj_da_scp": null,
+      "forma_de_tributacao": "LUCRO REAL",
+      "quantidade_de_escrituracoes": 1
+    },
+    {
+      "ano": 2024,
+      "cnpj_da_scp": null,
+      "forma_de_tributacao": "LUCRO REAL",
+      "quantidade_de_escrituracoes": 1
+    }
+  ],
+  "situacao_especial": "",
+  "opcao_pelo_simples": null,
+  "situacao_cadastral": 2,
+  "data_opcao_pelo_mei": null,
+  "data_exclusao_do_mei": null,
+  "cnae_fiscal_descricao": "Lojas de departamentos ou magazines, exceto lojas francas (Duty free)",
+  "codigo_municipio_ibge": 3516200,
+  "data_inicio_atividade": "1966-10-24",
+  "data_situacao_especial": null,
+  "data_opcao_pelo_simples": null,
+  "data_situacao_cadastral": "2005-11-03",
+  "nome_cidade_no_exterior": "",
+  "codigo_natureza_juridica": 2046,
+  "data_exclusao_do_simples": null,
+  "motivo_situacao_cadastral": 0,
+  "ente_federativo_responsavel": "",
+  "identificador_matriz_filial": 1,
+  "qualificacao_do_responsavel": 10,
+  "descricao_situacao_cadastral": "ATIVA",
+  "descricao_tipo_de_logradouro": "RUA",
+  "descricao_motivo_situacao_cadastral": "SEM MOTIVO",
+  "descricao_identificador_matriz_filial": "MATRIZ"
+}

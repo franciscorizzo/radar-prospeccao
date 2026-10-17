@@ -1,0 +1,338 @@
+[
+ {
+  "codigo": "1",
+  "lista": "AURORA COMPONENTES EXEMPLO LTDA",
+  "cidade": "Florianópolis",
+  "uf": "SC",
+  "status": "confiavel",
+  "cnpj": "99000001000100",
+  "candidato": {
+   "cnpj": "99000001000100",
+   "razao_social": "AURORA COMPONENTES EXEMPLO LTDA",
+   "municipio": "FLORIANÓPOLIS",
+   "uf": "SC"
+  }
+ },
+ {
+  "codigo": "2",
+  "lista": "BOREAL SISTEMAS EXEMPLO LTDA",
+  "cidade": "Fortaleza",
+  "uf": "CE",
+  "status": "confiavel",
+  "cnpj": "99000002000100",
+  "candidato": {
+   "cnpj": "99000002000100",
+   "razao_social": "BOREAL SISTEMAS EXEMPLO LTDA",
+   "municipio": "FORTALEZA",
+   "uf": "CE"
+  }
+ },
+ {
+  "codigo": "3",
+  "lista": "COBALTO TRANSPORTES EXEMPLO LTDA",
+  "cidade": "Recife",
+  "uf": "PE",
+  "status": "confiavel",
+  "cnpj": "99000003000100",
+  "candidato": {
+   "cnpj": "99000003000100",
+   "razao_social": "COBALTO TRANSPORTES EXEMPLO LTDA",
+   "municipio": "RECIFE",
+   "uf": "PE"
+  }
+ },
+ {
+  "codigo": "4",
+  "lista": "DUNA SAÚDE EXEMPLO LTDA",
+  "cidade": "Curitiba",
+  "uf": "PR",
+  "status": "confiavel",
+  "cnpj": "99000004000100",
+  "candidato": {
+   "cnpj": "99000004000100",
+   "razao_social": "DUNA SAÚDE EXEMPLO LTDA",
+   "municipio": "CURITIBA",
+   "uf": "PR"
+  }
+ },
+ {
+  "codigo": "5",
+  "lista": "ESTUARIO MAGAZINE EXEMPLO LTDA",
+  "cidade": "Salvador",
+  "uf": "BA",
+  "status": "confiavel",
+  "cnpj": "99000005000100",
+  "candidato": {
+   "cnpj": "99000005000100",
+   "razao_social": "ESTUARIO MAGAZINE EXEMPLO LTDA",
+   "municipio": "SALVADOR",
+   "uf": "BA"
+  }
+ },
+ {
+  "codigo": "6",
+  "lista": "GRANITO CRÉDITO EXEMPLO LTDA",
+  "cidade": "Curitiba",
+  "uf": "PR",
+  "status": "confiavel",
+  "cnpj": "99000006000100",
+  "candidato": {
+   "cnpj": "99000006000100",
+   "razao_social": "GRANITO CRÉDITO EXEMPLO LTDA",
+   "municipio": "CURITIBA",
+   "uf": "PR"
+  }
+ },
+ {
+  "codigo": "7",
+  "lista": "HORIZONTE ENERGIA EXEMPLO LTDA",
+  "cidade": "Goiânia",
+  "uf": "GO",
+  "status": "confiavel",
+  "cnpj": "99000007000100",
+  "candidato": {
+   "cnpj": "99000007000100",
+   "razao_social": "HORIZONTE ENERGIA EXEMPLO LTDA",
+   "municipio": "GOIÂNIA",
+   "uf": "GO"
+  }
+ },
+ {
+  "codigo": "8",
+  "lista": "IRIS EDUCAÇÃO EXEMPLO LTDA",
+  "cidade": "Salvador",
+  "uf": "BA",
+  "status": "confiavel",
+  "cnpj": "99000008000100",
+  "candidato": {
+   "cnpj": "99000008000100",
+   "razao_social": "IRIS EDUCAÇÃO EXEMPLO LTDA",
+   "municipio": "SALVADOR",
+   "uf": "BA"
+  }
+ },
+ {
+  "codigo": "9",
+  "lista": "JACARANDA COMPONENTES EXEMPLO LTDA",
+  "cidade": "Goiânia",
+  "uf": "GO",
+  "status": "confiavel",
+  "cnpj": "99000009000100",
+  "candidato": {
+   "cnpj": "99000009000100",
+   "razao_social": "JACARANDA COMPONENTES EXEMPLO LTDA",
+   "municipio": "GOIÂNIA",
+   "uf": "GO"
+  }
+ },
+ {
+  "codigo": "10",
+  "lista": "KEPLER SISTEMAS EXEMPLO LTDA",
+  "cidade": "Florianópolis",
+  "uf": "SC",
+  "status": "confiavel",
+  "cnpj": "99000010000100",
+  "candidato": {
+   "cnpj": "99000010000100",
+   "razao_social": "KEPLER SISTEMAS EXEMPLO LTDA",
+   "municipio": "FLORIANÓPOLIS",
+   "uf": "SC"
+  }
+ },
+ {
+  "codigo": "11",
+  "lista": "LOTUS TRANSPORTES EXEMPLO LTDA",
+  "cidade": "Porto Alegre",
+  "uf": "RS",
+  "status": "confiavel",
+  "cnpj": "99000011000100",
+  "candidato": {
+   "cnpj": "99000011000100",
+   "razao_social": "LOTUS TRANSPORTES EXEMPLO LTDA",
+   "municipio": "PORTO ALEGRE",
+   "uf": "RS"
+  }
+ },
+ {
+  "codigo": "12",
+  "lista": "MONCAO SAÚDE EXEMPLO LTDA",
+  "cidade": "Fortaleza",
+  "uf": "CE",
+  "status": "confiavel",
+  "cnpj": "99000012000100",
+  "candidato": {
+   "cnpj": "99000012000100",
+   "razao_social": "MONCAO SAÚDE EXEMPLO LTDA",
+   "municipio": "FORTALEZA",
+   "uf": "CE"
+  }
+ },
+ {
+  "codigo": "13",
+  "lista": "NIMBUS MAGAZINE EXEMPLO LTDA",
+  "cidade": "Goiânia",
+  "uf": "GO",
+  "status": "confiavel",
+  "cnpj": "99000013000100",
+  "candidato": {
+   "cnpj": "99000013000100",
+   "razao_social": "NIMBUS MAGAZINE EXEMPLO LTDA",
+   "municipio": "GOIÂNIA",
+   "uf": "GO"
+  }
+ },
+ {
+  "codigo": "14",
+  "lista": "OASIS CRÉDITO EXEMPLO LTDA",
+  "cidade": "Curitiba",
+  "uf": "PR",
+  "status": "confiavel",
+  "cnpj": "99000014000100",
+  "candidato": {
+   "cnpj": "99000014000100",
+   "razao_social": "OASIS CRÉDITO EXEMPLO LTDA",
+   "municipio": "CURITIBA",
+   "uf": "PR"
+  }
+ },
+ {
+  "codigo": "15",
+  "lista": "PAMPA ENERGIA EXEMPLO LTDA",
+  "cidade": "Recife",
+  "uf": "PE",
+  "status": "confiavel",
+  "cnpj": "99000015000100",
+  "candidato": {
+   "cnpj": "99000015000100",
+   "razao_social": "PAMPA ENERGIA EXEMPLO LTDA",
+   "municipio": "RECIFE",
+   "uf": "PE"
+  }
+ },
+ {
+  "codigo": "16",
+  "lista": "QUARTZO EDUCAÇÃO EXEMPLO LTDA",
+  "cidade": "Goiânia",
+  "uf": "GO",
+  "status": "confiavel",
+  "cnpj": "99000016000100",
+  "candidato": {
+   "cnpj": "99000016000100",
+   "razao_social": "QUARTZO EDUCAÇÃO EXEMPLO LTDA",
+   "municipio": "GOIÂNIA",
+   "uf": "GO"
+  }
+ },
+ {
+  "codigo": "17",
+  "lista": "RESTINGA COMPONENTES EXEMPLO LTDA",
+  "cidade": "Fortaleza",
+  "uf": "CE",
+  "status": "confiavel",
+  "cnpj": "99000017000100",
+  "candidato": {
+   "cnpj": "99000017000100",
+   "razao_social": "RESTINGA COMPONENTES EXEMPLO LTDA",
+   "municipio": "FORTALEZA",
+   "uf": "CE"
+  }
+ },
+ {
+  "codigo": "18",
+  "lista": "SAFIRA SISTEMAS EXEMPLO LTDA",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "status": "confiavel",
+  "cnpj": "99000018000100",
+  "candidato": {
+   "cnpj": "99000018000100",
+   "razao_social": "SAFIRA SISTEMAS EXEMPLO LTDA",
+   "municipio": "SÃO PAULO",
+   "uf": "SP"
+  }
+ },
+ {
+  "codigo": "19",
+  "lista": "TAMARINDO TRANSPORTES EXEMPLO LTDA",
+  "cidade": "Florianópolis",
+  "uf": "SC",
+  "status": "confiavel",
+  "cnpj": "99000019000100",
+  "candidato": {
+   "cnpj": "99000019000100",
+   "razao_social": "TAMARINDO TRANSPORTES EXEMPLO LTDA",
+   "municipio": "FLORIANÓPOLIS",
+   "uf": "SC"
+  }
+ },
+ {
+  "codigo": "20",
+  "lista": "UBIRATAN SAÚDE EXEMPLO LTDA",
+  "cidade": "Curitiba",
+  "uf": "PR",
+  "status": "confiavel",
+  "cnpj": "99000020000100",
+  "candidato": {
+   "cnpj": "99000020000100",
+   "razao_social": "UBIRATAN SAÚDE EXEMPLO LTDA",
+   "municipio": "CURITIBA",
+   "uf": "PR"
+  }
+ },
+ {
+  "codigo": "21",
+  "lista": "VEREDA MAGAZINE EXEMPLO LTDA",
+  "cidade": "Florianópolis",
+  "uf": "SC",
+  "status": "confiavel",
+  "cnpj": "99000021000100",
+  "candidato": {
+   "cnpj": "99000021000100",
+   "razao_social": "VEREDA MAGAZINE EXEMPLO LTDA",
+   "municipio": "FLORIANÓPOLIS",
+   "uf": "SC"
+  }
+ },
+ {
+  "codigo": "22",
+  "lista": "XISTO CRÉDITO EXEMPLO LTDA",
+  "cidade": "Recife",
+  "uf": "PE",
+  "status": "confiavel",
+  "cnpj": "99000022000100",
+  "candidato": {
+   "cnpj": "99000022000100",
+   "razao_social": "XISTO CRÉDITO EXEMPLO LTDA",
+   "municipio": "RECIFE",
+   "uf": "PE"
+  }
+ },
+ {
+  "codigo": "23",
+  "lista": "ZENITE ENERGIA EXEMPLO LTDA",
+  "cidade": "Florianópolis",
+  "uf": "SC",
+  "status": "confiavel",
+  "cnpj": "99000023000100",
+  "candidato": {
+   "cnpj": "99000023000100",
+   "razao_social": "ZENITE ENERGIA EXEMPLO LTDA",
+   "municipio": "FLORIANÓPOLIS",
+   "uf": "SC"
+  }
+ },
+ {
+  "codigo": "24",
+  "lista": "ALVORADA EDUCAÇÃO EXEMPLO LTDA",
+  "cidade": "Fortaleza",
+  "uf": "CE",
+  "status": "confiavel",
+  "cnpj": "99000024000100",
+  "candidato": {
+   "cnpj": "99000024000100",
+   "razao_social": "ALVORADA EDUCAÇÃO EXEMPLO LTDA",
+   "municipio": "FORTALEZA",
+   "uf": "CE"
+  }
+ }
+]
